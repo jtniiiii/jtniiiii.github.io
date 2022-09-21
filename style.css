@@ -1,12 +1,24 @@
 h1{
 	color: hsla(275, 80%, 70%, 0.8);
+	font-family: 'Balsamiq Sans', cursive;
 }
-h1{
-    font-family: 'Balsamiq Sans', cursive;
-}
-p{
+
+p {
 	color:hsla(275, 75%, 65%, 0.6);
 }
-body{
-	background-color:hsla(0, 0%, 15%, 1.0);
+
+body {
+	background: rgb(37,34,38);
+	background: linear-gradient(100deg, rgba(37,34,38,1) 0%, rgba(89,60,97,1) 50%, rgba(37,34,38,1) 100%);
+}
+
+a {
+    color: hsla(275, 100%, 45%, 1.0);
+}
+
+a:hover {
+    color: hsla(275, 70%, 70%, 1.0);
+}
+a:visited {
+	color: hsla(275, 100%, 37%, 1.0);
 }
