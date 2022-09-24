@@ -1,13 +1,43 @@
-h1{
+
+h1 {
 	color: hsla(275, 80%, 70%, 0.8);
 	font-family: 'Balsamiq Sans', cursive;
+}
+
+h1 {
+    font-family: 'Balsamiq Sans', cursive;
 }
 
 p {
 	color:hsla(275, 75%, 65%, 0.6);
 }
 
+div {
+	color: hsla(275, 75%, 65%, 0.6);
+	display: inline-block;
+	width: 45vw;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+
+}
+
+.q1 {
+	color: rgb(0, 0, 0);
+}
+
+.q2 {
+	color: rgb(255, 255, 0);
+}
+
+.q3 {
+	color: rgb(255, 0, 0);
+}
+
 body {
+	background-color:hsla(0, 0%, 15%, 1.0);
 	background: rgb(37,34,38);
 	background: linear-gradient(100deg, rgba(37,34,38,1) 0%, rgba(89,60,97,1) 50%, rgba(37,34,38,1) 100%);
 }
@@ -19,6 +49,7 @@ a {
 a:hover {
     color: hsla(275, 70%, 70%, 1.0);
 }
+
 a:visited {
 	color: hsla(275, 100%, 37%, 1.0);
-}
+} 
