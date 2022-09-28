@@ -1,3 +1,7 @@
+body {
+	background: linear-gradient(100deg, rgba(37,34,38,1) 0%, rgba(89,60,97,1) 50%, rgba(37,34,38,1) 100%);
+}
+
 h1 {
 	color: hsla(275, 80%, 70%, 0.8);
 	font-family: 'Balsamiq Sans', cursive;
@@ -5,13 +9,10 @@ h1 {
 }
 
 p {
-	color:hsla(275, 75%, 65%, 0.6);
-}
-
-body {
-	background-color:hsla(0, 0%, 15%, 1.0);
-	background: rgb(37,34,38);
-	background: linear-gradient(100deg, rgba(37,34,38,1) 0%, rgba(89,60,97,1) 50%, rgba(37,34,38,1) 100%);
+	color:hsla(275, 95%, 65%, 1.0);
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/17/%D0%A8%D0%B8%D1%80%D0%BE%D0%BA%D0%B8%D0%B9_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%D0%B8%D0%B4%D1%91%D1%82.jpg);
+    background-size: cover;
+    background-position: 50% 44%;
 }
 
 div {
